@@ -1,6 +1,7 @@
 ﻿using System;
+using System.ComponentModel;
 
-namespace ClassDemoEchoServer
+namespace ClassDemoEchoClient
 {
     class Program
     {
@@ -8,7 +9,7 @@ namespace ClassDemoEchoServer
         {
             Worker worker = new Worker();
             worker.Start();
-
+            worker.Start();
             Console.ReadLine();
         }
     }
