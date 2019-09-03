@@ -9,7 +9,6 @@ namespace ClassDemoEchoClient
         {
             Worker worker = new Worker();
             worker.Start();
-            worker.Start();
             Console.ReadLine();
         }
     }

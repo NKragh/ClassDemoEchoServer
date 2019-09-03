@@ -14,7 +14,8 @@ namespace ClassDemoEchoClient
             using (StreamReader sr = new StreamReader(socket.GetStream()))
             using (StreamWriter sw = new StreamWriter(socket.GetStream()))
             {
-                string str = "Den besked jeg sender";
+                Console.WriteLine("Hvad er dit input, mester?");
+                string str = Console.ReadLine();
 
                 sw.WriteLine(str);
                 sw.Flush();
